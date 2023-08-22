@@ -223,7 +223,7 @@ print("Mean Squared Error:", mse)
 
 # Save the model to a file
 import joblib
-joblib.dump(model, 'best_model.joblib')
+joblib.dump(model, 'best_model.pkl')
 
 #Train a machine learning model on the original dataset.
 from sklearn.linear_model import LinearRegression
